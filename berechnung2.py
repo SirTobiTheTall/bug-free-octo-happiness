@@ -1,6 +1,8 @@
 from random import randint
+import sys
 
-n = 100
+n = int(sys.argv[1])
+
 a = []
 
 for i in range(n):
@@ -9,5 +11,5 @@ for i in range(n):
 
 b = sum(a)/n
 
-#print(a)
+print(a)
 print(b)
